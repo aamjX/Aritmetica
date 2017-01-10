@@ -5,9 +5,16 @@ public class Resta {
 		
 		return a - b;
 	}
-
+	//No permite que salgan numeros positivos
 	public static double restaDosNumeros(double a, double b) {
-		//Cuidado porque pueden salir numeros negativos
-		return a - b;
+		double result = 0; 
+		if(a<b){
+			result = b - a;
+		}
+		else{
+			result = a -b;
+		}
+		
+		return result;
 	}
 }
