@@ -7,7 +7,14 @@ public class Resta {
 	}
 
 	public static double restaDosNumeros(double a, double b) {
+		double result = 0; 
+		if(a<b){
+			result = b - a;
+		}
+		else{
+			result = a -b;
+		}
 		
-		return a - b;
+		return result;
 	}
 }
