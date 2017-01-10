@@ -7,7 +7,7 @@ public class Resta {
 	}
 
 	public static double restaDosNumeros(double a, double b) {
-		
+		//Cuidado porque pueden salir numeros negativos
 		return a - b;
 	}
 }
