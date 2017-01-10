@@ -12,7 +12,9 @@ public class TestResta {
 	
 	@Test
 	public void testResta(){
+		
 		assertEquals(3.5, Resta.restaDosNumeros(7.0, 3.5),3.5);
+		
 	}
 	
 }

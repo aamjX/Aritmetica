@@ -30,7 +30,6 @@ public class TestSuma {
 				
 	}
 	
-	@SuppressWarnings("deprecation")
 	@Test
 	public void testSumaListaNumeros(){
 		List<Double> lista = new ArrayList<Double>();
