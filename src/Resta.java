@@ -2,8 +2,10 @@
 public class Resta {
 	
 	public static int restaDosNumerosEnteros(int a, int b) {
-		int r = b -a;
-		return r;
+		//añadiendo variable
+		int result = a - b;
+		return result;
+
 	}
 	//No permite que salgan numeros positivos
 	public static double restaDosNumeros(double a, double b) {
